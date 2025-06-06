@@ -117,6 +117,14 @@ main {
   line-height: 1.6;
 }
 
+.title {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: rgb(39, 39, 48);
+}
+
 
 @media (max-width: 64rem) {
   .nav-links {
@@ -150,3 +158,50 @@ main {
     display: flex;
   }
 }
+
+/* Character & Environment Concepts Tab CSS */
+.content-section {
+  padding: 2rem;
+}
+
+.concept-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.concept-item {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.concept-item img {
+  width: 100%;
+  height: auto;
+}
+
+.concept-description {
+  padding: 0.5rem;
+  overflow: hidden; 
+  word-wrap: break-word;
+}
+
+/* Script Tab CSS */
+.script-content {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  width: 90%;
+  padding: 1.1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  text-align: left;
+}
+
+.script-intro {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
