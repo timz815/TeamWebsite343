@@ -1,0 +1,29 @@
+
+/* Character & Environment Concepts Tab CSS */
+.content-section {
+  padding: 2rem;
+}
+
+.concept-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.concept-item {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.concept-item img {
+  width: 100%;
+  height: auto;
+}
+
+.concept-description {
+  padding: 0.5rem;
+  overflow: hidden; 
+  word-wrap: break-word;
+}
