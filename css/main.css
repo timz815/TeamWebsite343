@@ -6,7 +6,7 @@
 
   @font-face {
     font-family: 'Lulo Clean';
-    src: url('LuloCleanW01-OneBold.woff2') format('woff2');
+    src: url('../fonts/LuloCleanW01-OneBold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -39,11 +39,12 @@
 
   html {
     background-color: var(--charcoal);
+    margin: 1rem;
+
   }
 
   body {
     font-family: 'Roboto', 'Helvetica', sans-serif;
-    margin: 1rem;
   }
 
   /* Header */
