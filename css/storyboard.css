@@ -3,6 +3,7 @@
   overflow: hidden;
   width: 100%;
   padding-top: 56.25%; /* maintains aspect ratio of 16:9 */
+  min-width: 45rem;
 }
 
 iframe {
